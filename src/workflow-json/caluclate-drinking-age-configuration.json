@@ -1,0 +1,51 @@
+{
+  "type": "calculateYearsToDrinkingAge",
+  "description": "This workflow executes a series of functions in a specific order",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "type": "substract",
+      "inputs": [
+        {
+          "name": "birthdayDate",
+          "type": "date",
+          "value": "2002-03-13T18:25:43.511Z"
+        },
+        {
+          "name": "currentDate",
+          "type": "date",
+          "value": ""
+        },
+        {
+          "name": "randomObject",
+          "type": "object",
+          "properties": [
+            {
+              "name": "randomNumber",
+              "type": "number",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "combinedDate",
+          "type": "date",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "calculate-age",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "canDrink",
+          "type": "boolean",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

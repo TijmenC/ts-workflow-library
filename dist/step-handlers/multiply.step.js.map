@@ -1,0 +1,1 @@
+{"version":3,"file":"multiply.step.js","sourceRoot":"","sources":["../../src/step-handlers/multiply.step.ts"],"names":[],"mappings":";;;AAEA,MAAa,mBAAmB;IAAhC;QACW,SAAI,GAAW,UAAU,CAAC;IAQrC,CAAC;IANC,SAAS,CAAC,IAAY;QACpB,OAAO,IAAI,KAAK,IAAI,CAAC,IAAI,CAAC;IAC5B,CAAC;IACD,OAAO;QACL,OAAO,CAAC,GAAG,CAAC,qBAAqB,CAAC,CAAC;IACrC,CAAC;CACF;AATD,kDASC"}
